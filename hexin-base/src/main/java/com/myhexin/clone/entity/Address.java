@@ -1,0 +1,32 @@
+package com.myhexin.clone.entity;
+
+public class Address implements Cloneable{
+
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public Object clone() {
+        Address address = null;
+        try {
+            address = (Address) super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return address;
+    }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "address='" + address + '\'' +
+                '}';
+    }
+}
