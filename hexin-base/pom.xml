@@ -10,10 +10,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hexin-web</artifactId>
-    <packaging>war</packaging>
+    <artifactId>hexin-base</artifactId>
 
-    <name>hexin-web Maven Webapp</name>
+    <name>hexin-base</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -26,12 +25,11 @@
     </dependencies>
 
     <build>
-        <finalName>hexin-web</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
             </plugin>
-            <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+            <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
             </plugin>
@@ -42,7 +40,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
             <plugin>
-                <artifactId>maven-war-plugin</artifactId>
+                <artifactId>maven-jar-plugin</artifactId>
             </plugin>
             <plugin>
                 <artifactId>maven-install-plugin</artifactId>
