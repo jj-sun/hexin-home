@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hexin-web</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>hexin-web Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -42,7 +42,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
             <plugin>
-                <artifactId>maven-war-plugin</artifactId>
+                <artifactId>maven-jar-plugin</artifactId>
             </plugin>
             <plugin>
                 <artifactId>maven-install-plugin</artifactId>
