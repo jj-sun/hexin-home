@@ -1,8 +1,5 @@
-package com.myhexin.config;
+package com.myhexin.properties;
 
-import com.myhexin.cd.CompactDisc;
-import com.myhexin.cd.impl.SgtPeppers;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;

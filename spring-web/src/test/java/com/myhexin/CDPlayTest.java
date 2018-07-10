@@ -2,9 +2,8 @@ package com.myhexin;
 
 import com.myhexin.cd.CompactDisc;
 import com.myhexin.cd.MediaPlayer;
-import com.myhexin.config.CDPlayConfig;
+import com.myhexin.properties.CDPlayConfig;
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
