@@ -11,5 +11,6 @@
         <module>hexin-web</module>
         <module>hexin-base</module>
         <module>hexin-parent</module>
+        <module>hexin-sys</module>
     </modules>
 </project>
