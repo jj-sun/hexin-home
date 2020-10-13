@@ -17,7 +17,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring-boot.version>2.0.3.RELEASE</spring-boot.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <cglib.version>3.1</cglib.version>
         <spring-boot-mybatis.version>1.3.1</spring-boot-mybatis.version>
         <apahce-commons.version>3.7</apahce-commons.version>
